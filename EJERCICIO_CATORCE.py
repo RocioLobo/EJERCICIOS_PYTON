@@ -1,0 +1,1 @@
+#Tenemos la pantalla del movil bloqueada.partiendo de un PIN_SECRETO,intentaremos desbloquear la pantalla Tenemos hasta 3 intentos.Simula el proceso con pyton.En caso de acceder,lanza al usuario login correcto.Sino,llamando a la policia.
