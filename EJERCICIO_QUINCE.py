@@ -2,10 +2,10 @@
 0,1,1,2,3,5,8,13,21,34,55,89
 #pista:Empezando por 0 y 1el siguiente numero es la suma de los dos numeros ultimos.
 
-num:int = 12  
+nume:int = 12  
 numero_a, numero_b = 0, 1
 count = 0
-while count < num:
+while count < nume:
     print(numero_a, end=", ")
     numero_a, numero_b = numero_b, numero_a + numero_b
     count += 1

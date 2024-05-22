@@ -32,8 +32,8 @@ def mostrar_lista():
         tarea=tarea_info["tarea"]
         completada=tarea_info["completada"]
 #Estado de tareas completadas o pendientes.
-estado ="completada" if "completada" else "pendiente"
-print(f"{tarea_id}.{tarea}-{estado}")
+estado ="completada" if "completada" else "pendiente" # type: ignore
+print(f"{Tarea_id}.{Tarea}-{estado}") # type: ignore
 
 #menu principal
 while True:
